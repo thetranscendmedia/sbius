@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Press - SBI Investigation Bureau</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">SBI</div>
+                <div class="logo-text">
+                    <h1>SBI Investigation</h1>
+                    <p>Official Portal</p>
+                </div>
+            </div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="investigation.html">Investigations</a></li>
+                    <li><a href="news.html">News</a></li>
+                    
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>News & Press Releases</h1>
+            <p>Latest updates from SBI</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container page-content">
+        <!-- Featured News -->
+        <section class="featured-news">
+            <h2>Featured Story</h2>
+            <div class="featured-article">
+                <div class="featured-image">📰</div>
+                <div class="featured-content">
+                    <h3>Major Cybercrime Ring Dismantled in Multi-State Operation</h3>
+                    <p class="article-date">June 1, 2026</p>
+                    <p>In a coordinated effort with federal and state law enforcement, the SBI successfully dismantled a major cybercrime ring responsible for over $50 million in fraudulent transactions. The operation resulted in 15 arrests across 8 states.</p>
+                    <a href="#" class="btn-primary">Read Full Story</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Grid -->
+        <section class="news-section">
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <h3>Financial Fraud Charges Filed Against Former Executive</h3>
+                    <p class="article-date">May 28, 2026</p>
+                    <p>Federal charges have been filed against John Mitchell for his involvement in a $30 million embezzlement scheme. The investigation involved forensic accounting and international asset tracing.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+
+                <article class="news-card">
+                    <h3>SBI Launches New Cybersecurity Awareness Campaign</h3>
+                    <p class="article-date">May 25, 2026</p>
+                    <p>In response to increasing phishing attacks, the SBI has launched a comprehensive public awareness campaign to educate citizens about cybersecurity best practices and how to report suspicious activity.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+
+                <article class="news-card">
+                    <h3>International Cooperation Leads to Money Laundering Bust</h3>
+                    <p class="article-date">May 20, 2026</p>
+                    <p>Working with Interpol and foreign law enforcement agencies, the SBI seized $100 million in illicit funds connected to international organized crime. This represents a major victory in combating transnational crime.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+
+                <article class="news-card">
+                    <h3>New Training Program Enhances Digital Forensics Capabilities</h3>
+                    <p class="article-date">May 15, 2026</p>
+                    <p>The SBI unveiled its new advanced digital forensics training program designed to equip agents with cutting-edge tools and techniques for investigating complex cybercrimes in the modern era.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+
+                <article class="news-card">
+                    <h3>Director Testifies Before Congress on Cybercrime Threats</h3>
+                    <p class="article-date">May 10, 2026</p>
+                    <p>SBI Director John Anderson testified before a Congressional committee about the growing threat of cyberattacks on critical infrastructure and the agency's efforts to combat these threats.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+
+                <article class="news-card">
+                    <h3>Community Outreach Program Expands to Six New Cities</h3>
+                    <p class="article-date">May 5, 2026</p>
+                    <p>The SBI's community outreach program, which educates the public about crime prevention and encourages tip reporting, is expanding to reach citizens in six additional metropolitan areas.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Press Resources -->
+        <section class="press-resources">
+            <h2 class="section-title">Press Resources</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>📸 Media Kit</h3>
+                    <p>Download official logos, photographs, and agency information for media use.</p>
+                    <a href="#" class="btn-secondary">Download</a>
+                </div>
+                <div class="resource-card">
+                    <h3>📧 Press Contact</h3>
+                    <p>Contact our media relations office for press inquiries and interview requests.</p>
+                    <a href="#" class="btn-secondary">Contact Us</a>
+                </div>
+                <div class="resource-card">
+                    <h3>📑 Fact Sheets</h3>
+                    <p>Access detailed information about our divisions and investigations.</p>
+                    <a href="#" class="btn-secondary">View Sheets</a>
+                </div>
+                <div class="resource-card">
+                    <h3>🎥 Videos</h3>
+                    <p>Watch interviews, briefings, and educational videos from SBI leadership.</p>
+                    <a href="#" class="btn-secondary">Watch Videos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscribe Section -->
+        <section class="subscribe-section">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to receive the latest SBI news and press releases.</p>
+            <form class="subscribe-form" onsubmit="handleSubscribe(event)">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About SBI</h4>
+                <ul>
+                    <li><a href="about.html">Organization</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">History</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">FOIA</a></li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="contact.html">Report Tips</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SBI Investigation Bureau. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function handleSubscribe(event) {
+            event.preventDefault();
+            alert('Thank you for subscribing! Check your email for confirmation.');
+            event.target.reset();
+        }
+    </script>
+</body>
+</html>
